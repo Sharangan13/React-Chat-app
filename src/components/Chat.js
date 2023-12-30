@@ -45,7 +45,7 @@ export const Chat = ({ room }) => {
       createdAt: serverTimestamp(),
       user: auth.currentUser.displayName,
       photoURL: auth.currentUser.photoURL,
-      room,
+      room:room,
     });
 
     setNewMessage("");
